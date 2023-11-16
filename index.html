@@ -10,18 +10,20 @@
     <div class="container">
       <h4>Write your message below!</h4>
       <form id="message-form">
-        <input
-          type="text"
-          name=""
-          id="message"
-          class="box"
-          placeholder="Type your message here"
-        />
+        <div class="flex">
+          <input
+            type="password"
+            name=""
+            class="message password"
+            class="box"
+            placeholder="Type your message here"
+          />
+          <img class="eyeicon" src="eye-close.png" alt="" />
+        </div>
         <input type="submit" name="" id="submitBtn" class="button" />
       </form>
-
       <h5 class="feedback">Please enter a value to pass!!</h5>
-      <h4>Last Message Delivered!</h4>
+      <h4 class="temp">Last Message Delivered!</h4>
       <h4 class="message-content">Hello World</h4>
     </div>
     <script src="app.js"></script>
